@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Cliker</title>
+</head>
+<script src="script.js"></script>
+
+<body>
+    <div class="top_bar">
+        <p>Dojonary</p>
+        <input type="tex" placeholder="Search" class="search">
+        <button class="btnTop" id="btnlog"   onclick="logBtn(this)"> Login </button>
+    </div>
+    <div class="main">
+        <div class="col1">
+            <div class="notif1">
+                <div class="ninja">
+                    <h1> ninja</h1>
+                    <p class="italics"> noun </p>
+                    <p> Plural: <span class="italics">ninjas </span></p>
+                    <button class="btn1"onclick="alert('Ninja was liked')> 13 likes </button>
+                </div>
+                <div class="def">
+                    <p>A practioner skilled in the <span id="blueunder">Japanese</span> art of <span
+                            id="blueunder">ninjutsu.</span></p>
+                </div>
+            </div>
+            <div class="notif2">
+                <div class="ninja">
+                    <h1> ninja</h1>
+                    <p class="italics"> noun </p>
+                    <p> Plural: <span class="italics">ninjas </span></p>
+                    <button class="btn2" onclick="alert('Ninja was liked')"> 37 likes </button>
+                </div>
+                <div class="def2">
+                    <p>A <span id="blueunder">programmer</span> who breaks down problems with <span
+                            id="blueunder">zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="notif3">
+                <p>Dojonary is defined by <span class="bold">YOU</span></p>
+                <button class="btn3" onclick="this.remove()"> Add Definition </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
